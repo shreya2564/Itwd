@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q2- with internal css</title>
+    <style>
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      p {
+        color: white;
+        background-color: black;
+        font-family: "Courier New", Courier, monospace;
+        padding: 20px;
+      }
+
+      a {
+        text-decoration: line-through;
+        cursor: pointer;
+        margin: 20px 0;
+      }
+
+      img {
+        object-fit: cover;
+        width: 320px;
+        height: 320px;
+        border: 10px solid rgb(210, 210, 210);
+        border-radius: 5px;
+      }
+
+      ul{
+        all: unset;
+        list-style: none;
+        padding: 20px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p >hello world !</p>
+      <a href="https://github.com">link</a>
+      <img
+        src="https://images.pexels.com/photos/6185466/pexels-photo-6185466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+      />
+      <ul>
+        <li>This is a list item with no styling</li>
+      </ul>
+    </div>
+  </body>
+</html>
